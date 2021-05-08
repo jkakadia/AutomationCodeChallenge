@@ -1,0 +1,40 @@
+{
+  "name": "automationcodechallenge",
+  "version": "1.0.0",
+  "description": "Automation Code Challenge ",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor tmp/conf.js",
+    "pretest": "tsc",
+    "protractor": "./node_modules/protractor/built/cli.js",
+    "webdriver-manager-update": "./node_modules/.bin/webdriver-manager update"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bobra-FINEOS/AutomationCodeChallenge.git"
+  },
+  "author": "Janki Kakadia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bobra-FINEOS/AutomationCodeChallenge/issues"
+  },
+  "homepage": "https://github.com/Bobra-FINEOS/AutomationCodeChallenge#readme",
+  "dependencies": {
+    "@types/cucumber": "^6.0.1",
+    "@types/jasmine": "~3.7.0",
+    "@types/jasminewd2": "~2.0.3",
+    "@types/node": "~12.12.2",
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "cucumber": "^6.0.5",
+    "cucumber-html-reporter": "^5.4.0",
+    "jasmine": "^3.7.0",
+    "protractor": "^7.0.0",
+    "protractor-cucumber-framework": "~8.0.4",
+    "ts-node": "~9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.2.1"
+  }
+}
