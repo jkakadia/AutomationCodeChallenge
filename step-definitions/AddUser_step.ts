@@ -32,7 +32,6 @@ When('Enters {string} as Password', async (password) => {
 When('Selects {string} as Customer', async (customer) => {
     for (var i = 0; i < await hp.customerRadioLables.count(); i++) {
         if (await hp.customerRadioLables.get(i).getText() == customer) {
-            console.log(await hp.customerRadioLables.get(i).getText());
             await hp.customerRadioBtns.get(i).click();
         }
     }
