@@ -1,0 +1,608 @@
+[
+  {
+    "description": "    As an Engr. Candidate I need to automate http://www.way2automation.com/angularjs-protractor/webtables/\n    So I can show my automation capabilities",
+    "elements": [
+      {
+        "description": "",
+        "id": "automate;add-a-user-and-validate-the-user-has-been-added-to-the-table",
+        "keyword": "Scenario Outline",
+        "line": 5,
+        "name": "Add a user and validate the user has been added to the table",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I am navigated to 'http://www.way2automation.com/angularjs-protractor/webtables/' page",
+            "match": {
+              "location": "..\\step-definitions\\AddUser_step.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1610000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click Add User button",
+            "match": {
+              "location": "..\\step-definitions\\AddUser_step.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 157000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Enters 'Donald' as First Name",
+            "match": {
+              "location": "..\\step-definitions\\AddUser_step.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 119000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Enters 'Trump' as Last Name",
+            "match": {
+              "location": "..\\step-definitions\\AddUser_step.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 92000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Enters 'donaldtrump' as User Name",
+            "match": {
+              "location": "..\\step-definitions\\AddUser_step.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 93000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Enters 'donald123' as Password",
+            "match": {
+              "location": "..\\step-definitions\\AddUser_step.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Selects 'Company AAA' as Customer",
+            "match": {
+              "location": "..\\step-definitions\\AddUser_step.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 167000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Selects 'Admin' as Role",
+            "match": {
+              "location": "..\\step-definitions\\AddUser_step.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 591000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "Enters 'trump@test.com' as Email Address",
+            "match": {
+              "location": "..\\step-definitions\\AddUser_step.ts:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 104000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Enters '8889991111' as Cell Phone",
+            "match": {
+              "location": "..\\step-definitions\\AddUser_step.ts:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 89000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Click Save button",
+            "match": {
+              "location": "..\\step-definitions\\AddUser_step.ts:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 94000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "Validate user with 'Donald', 'Trump', 'donaldtrump' and 'trump@test.com' is added successfully",
+            "match": {
+              "location": "..\\step-definitions\\AddUser_step.ts:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 147000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "automate;add-a-user-and-validate-the-user-has-been-added-to-the-table",
+        "keyword": "Scenario Outline",
+        "line": 5,
+        "name": "Add a user and validate the user has been added to the table",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I am navigated to 'http://www.way2automation.com/angularjs-protractor/webtables/' page",
+            "match": {
+              "location": "..\\step-definitions\\AddUser_step.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 503000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click Add User button",
+            "match": {
+              "location": "..\\step-definitions\\AddUser_step.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 233000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Enters 'Barak' as First Name",
+            "match": {
+              "location": "..\\step-definitions\\AddUser_step.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Enters 'Obama' as Last Name",
+            "match": {
+              "location": "..\\step-definitions\\AddUser_step.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 90000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Enters 'barakobama' as User Name",
+            "match": {
+              "location": "..\\step-definitions\\AddUser_step.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Enters 'obama123' as Password",
+            "match": {
+              "location": "..\\step-definitions\\AddUser_step.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 105000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Selects 'Company BBB' as Customer",
+            "match": {
+              "location": "..\\step-definitions\\AddUser_step.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 285000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Selects 'Sales Team' as Role",
+            "match": {
+              "location": "..\\step-definitions\\AddUser_step.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 679000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "Enters 'obama@test.com' as Email Address",
+            "match": {
+              "location": "..\\step-definitions\\AddUser_step.ts:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 147000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Enters '2224445555' as Cell Phone",
+            "match": {
+              "location": "..\\step-definitions\\AddUser_step.ts:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 105000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Click Save button",
+            "match": {
+              "location": "..\\step-definitions\\AddUser_step.ts:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 104000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "Validate user with 'Barak', 'Obama', 'barakobama' and 'obama@test.com' is added successfully",
+            "match": {
+              "location": "..\\step-definitions\\AddUser_step.ts:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 251000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "automate;",
+        "keyword": "Scenario Outline",
+        "line": 25,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "I am navigated to 'http://www.way2automation.com/angularjs-protractor/webtables/' page",
+            "match": {
+              "location": "..\\step-definitions\\AddUser_step.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 515000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "I click Add User button",
+            "match": {
+              "location": "..\\step-definitions\\AddUser_step.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 159000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "Enters 'Donald' as First Name",
+            "match": {
+              "location": "..\\step-definitions\\AddUser_step.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 154000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "Enters 'Trump' as Last Name",
+            "match": {
+              "location": "..\\step-definitions\\AddUser_step.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 107000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "Enters 'donaldtrump' as User Name",
+            "match": {
+              "location": "..\\step-definitions\\AddUser_step.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 106000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "Enters 'donald123' as Password",
+            "match": {
+              "location": "..\\step-definitions\\AddUser_step.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 154000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "Selects 'Company AAA' as Customer",
+            "match": {
+              "location": "..\\step-definitions\\AddUser_step.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 329000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "Selects 'Admin' as Role",
+            "match": {
+              "location": "..\\step-definitions\\AddUser_step.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 668000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "Enters 'trump@test.com' as Email Address",
+            "match": {
+              "location": "..\\step-definitions\\AddUser_step.ts:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 144000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "Enters '8889991111' as Cell Phone",
+            "match": {
+              "location": "..\\step-definitions\\AddUser_step.ts:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 121000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "Click Save button",
+            "match": {
+              "location": "..\\step-definitions\\AddUser_step.ts:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 102000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "Validate Customer filed for user is 'Company AAA'",
+            "match": {
+              "location": "..\\step-definitions\\AddUser_step.ts:68"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 65000000,
+              "error_message": "AssertionError\n    + expected - actual\n\n    +Company AAA\n\n    at C:\\Users\\janki\\Janki\\Interview\\AutomationCodeChallenge\\step-definitions\\AddUser_step.ts:69:64\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\janki\\Janki\\Interview\\AutomationCodeChallenge\\tmp\\step-definitions\\AddUser_step.js:5:58)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "automate",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Automate",
+    "tags": [],
+    "uri": "..\\features\\AddUser.feature"
+  },
+  {
+    "description": "    As an Engr. Candidate I need to automate http://www.way2automation.com/angularjs-protractor/webtables/\n    So I can show my automation capabilities",
+    "elements": [
+      {
+        "description": "",
+        "id": "automate;delete-user-user-name:-novak-and-validate-user-has-been-deleted",
+        "keyword": "Scenario Outline",
+        "line": 5,
+        "name": "Delete user User Name: novak and validate user has been deleted",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I am navigated to 'http://www.way2automation.com/angularjs-protractor/webtables/' page",
+            "match": {
+              "location": "..\\step-definitions\\AddUser_step.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 461000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I delete the user with User Name 'novak'",
+            "match": {
+              "location": "..\\step-definitions\\DeleteUser_step.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 742000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Validate user with User Name 'novak' is deleted successfully",
+            "match": {
+              "location": "..\\step-definitions\\DeleteUser_step.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 451000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "automate",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Automate",
+    "tags": [],
+    "uri": "..\\features\\DeleteUser.feature"
+  }
+]
