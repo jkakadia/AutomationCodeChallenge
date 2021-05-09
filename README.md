@@ -40,6 +40,7 @@ Scenario: Delete user User Name: novak and validate user has been deleted
      git clone https://github.com/jkakadia/AutomationCodeChallenge.git
 
 2. Run below command in command prompt from the project folder location
+     
      npm run webdriver-manager-update
      npm run test
 
