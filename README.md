@@ -51,5 +51,5 @@ Scenario: Delete user User Name: novak and validate user has been deleted
 
 3. Test Report is generated in below folder in project
      
-     Path: ./AutomationCodeChallenge/reports/testReport_html.HTML
+          File Path: ./AutomationCodeChallenge/reports/testReport_html.HTML
 
