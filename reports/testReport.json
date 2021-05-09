@@ -19,7 +19,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1610000000
+              "duration": 1810000000
             }
           },
           {
@@ -32,7 +32,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 157000000
+              "duration": 134000000
             }
           },
           {
@@ -45,7 +45,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 119000000
+              "duration": 105000000
             }
           },
           {
@@ -58,7 +58,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 92000000
+              "duration": 84000000
             }
           },
           {
@@ -71,7 +71,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 93000000
+              "duration": 92000000
             }
           },
           {
@@ -84,7 +84,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 80000000
+              "duration": 81000000
             }
           },
           {
@@ -97,7 +97,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 167000000
+              "duration": 165000000
             }
           },
           {
@@ -110,7 +110,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 591000000
+              "duration": 956000000
             }
           },
           {
@@ -123,7 +123,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 104000000
+              "duration": 155000000
             }
           },
           {
@@ -136,7 +136,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 89000000
+              "duration": 96000000
             }
           },
           {
@@ -149,7 +149,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 94000000
+              "duration": 84000000
             }
           },
           {
@@ -162,7 +162,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 147000000
+              "duration": 225000000
             }
           },
           {
@@ -194,7 +194,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 503000000
+              "duration": 515000000
             }
           },
           {
@@ -207,7 +207,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 233000000
+              "duration": 147000000
             }
           },
           {
@@ -220,7 +220,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 79000000
+              "duration": 109000000
             }
           },
           {
@@ -233,7 +233,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 90000000
+              "duration": 83000000
             }
           },
           {
@@ -246,7 +246,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 80000000
+              "duration": 118000000
             }
           },
           {
@@ -259,7 +259,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 105000000
+              "duration": 86000000
             }
           },
           {
@@ -272,7 +272,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 285000000
+              "duration": 234000000
             }
           },
           {
@@ -285,7 +285,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 679000000
+              "duration": 682000000
             }
           },
           {
@@ -298,7 +298,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 147000000
+              "duration": 159000000
             }
           },
           {
@@ -311,7 +311,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 105000000
+              "duration": 89000000
             }
           },
           {
@@ -324,7 +324,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 104000000
+              "duration": 107000000
             }
           },
           {
@@ -337,7 +337,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 251000000
+              "duration": 146000000
             }
           },
           {
@@ -345,183 +345,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 26000000
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "automate;",
-        "keyword": "Scenario Outline",
-        "line": 25,
-        "name": "",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 26,
-            "name": "I am navigated to 'http://www.way2automation.com/angularjs-protractor/webtables/' page",
-            "match": {
-              "location": "..\\step-definitions\\AddUser_step.ts:9"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 515000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 27,
-            "name": "I click Add User button",
-            "match": {
-              "location": "..\\step-definitions\\AddUser_step.ts:13"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 159000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 28,
-            "name": "Enters 'Donald' as First Name",
-            "match": {
-              "location": "..\\step-definitions\\AddUser_step.ts:17"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 154000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 29,
-            "name": "Enters 'Trump' as Last Name",
-            "match": {
-              "location": "..\\step-definitions\\AddUser_step.ts:20"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 107000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 30,
-            "name": "Enters 'donaldtrump' as User Name",
-            "match": {
-              "location": "..\\step-definitions\\AddUser_step.ts:24"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 106000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 31,
-            "name": "Enters 'donald123' as Password",
-            "match": {
-              "location": "..\\step-definitions\\AddUser_step.ts:28"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 154000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 32,
-            "name": "Selects 'Company AAA' as Customer",
-            "match": {
-              "location": "..\\step-definitions\\AddUser_step.ts:32"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 329000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 33,
-            "name": "Selects 'Admin' as Role",
-            "match": {
-              "location": "..\\step-definitions\\AddUser_step.ts:40"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 668000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 34,
-            "name": "Enters 'trump@test.com' as Email Address",
-            "match": {
-              "location": "..\\step-definitions\\AddUser_step.ts:49"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 144000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 35,
-            "name": "Enters '8889991111' as Cell Phone",
-            "match": {
-              "location": "..\\step-definitions\\AddUser_step.ts:53"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 121000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 36,
-            "name": "Click Save button",
-            "match": {
-              "location": "..\\step-definitions\\AddUser_step.ts:57"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 102000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 37,
-            "name": "Validate Customer filed for user is 'Company AAA'",
-            "match": {
-              "location": "..\\step-definitions\\AddUser_step.ts:68"
-            },
-            "result": {
-              "status": "failed",
-              "duration": 65000000,
-              "error_message": "AssertionError\n    + expected - actual\n\n    +Company AAA\n\n    at C:\\Users\\janki\\Janki\\Interview\\AutomationCodeChallenge\\step-definitions\\AddUser_step.ts:69:64\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\janki\\Janki\\Interview\\AutomationCodeChallenge\\tmp\\step-definitions\\AddUser_step.js:5:58)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 19000000
+              "duration": 21000000
             }
           }
         ],
@@ -556,7 +380,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 461000000
+              "duration": 446000000
             }
           },
           {
@@ -569,7 +393,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 742000000
+              "duration": 432000000
             }
           },
           {
@@ -582,7 +406,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 451000000
+              "duration": 235000000
             }
           },
           {
@@ -590,7 +414,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 15000000
+              "duration": 18000000
             }
           }
         ],

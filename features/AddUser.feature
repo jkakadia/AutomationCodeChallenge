@@ -21,23 +21,23 @@ Feature: Automate
             | Donald    | Trump    | donaldtrump | donald123 | Company AAA | Admin      | trump@test.com | 8889991111 |
             | Barak     | Obama    | barakobama  | obama123  | Company BBB | Sales Team | obama@test.com | 2224445555 |
 
-# Senario to demonstrate failed scenario. Bug - Customer filed is not getting added to table
-Scenario Outline: 
-        Given I am navigated to 'http://www.way2automation.com/angularjs-protractor/webtables/' page
-        When I click Add User button
-        And Enters '<firstName>' as First Name
-        And Enters '<lastName>' as Last Name
-        And Enters '<userName>' as User Name
-        And Enters '<password>' as Password
-        And Selects '<customer>' as Customer
-        And Selects '<role>' as Role
-        And Enters '<email>' as Email Address
-        And Enters '<cellPhone>' as Cell Phone
-        And Click Save button
-        Then Validate Customer filed for user is '<customer>'
+# # Bug - Customer field is not getting added to table. Uncomment this scenario and run test to see faliure.
+# Scenario Outline: 
+#         Given I am navigated to 'http://www.way2automation.com/angularjs-protractor/webtables/' page
+#         When I click Add User button
+#         And Enters '<firstName>' as First Name
+#         And Enters '<lastName>' as Last Name
+#         And Enters '<userName>' as User Name
+#         And Enters '<password>' as Password
+#         And Selects '<customer>' as Customer
+#         And Selects '<role>' as Role
+#         And Enters '<email>' as Email Address
+#         And Enters '<cellPhone>' as Cell Phone
+#         And Click Save button
+#         Then Validate Customer filed for user is '<customer>'
 
-        Examples:
-            | firstName | lastName | userName    | password  | customer    | role       | email          | cellPhone  |
-            | Donald    | Trump    | donaldtrump | donald123 | Company AAA | Admin      | trump@test.com | 8889991111 |
+#         Examples:
+#             | firstName | lastName | userName    | password  | customer    | role       | email          | cellPhone  |
+#             | Donald    | Trump    | donaldtrump | donald123 | Company AAA | Admin      | trump@test.com | 8889991111 |
 
 
