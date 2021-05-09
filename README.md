@@ -42,6 +42,7 @@ Scenario: Delete user User Name: novak and validate user has been deleted
 2. Run below command in command prompt from the project folder location
      
      npm run webdriver-manager-update
+     
      npm run test
 
 3. Test Report is generated in below folder in project
